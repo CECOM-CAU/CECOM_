@@ -13,7 +13,18 @@ sqlData = curs.fetchall()
 print(sqlData)
 
 
+testData = '20164352'
 
+def Authentication(sqlData, testData):
+    for i in sqlData:
+        if testData in i:
+            return testData
+        else:
+            return False
+
+
+
+print(Authentication(sqlData,testData))
 
 
 conn.commit()
