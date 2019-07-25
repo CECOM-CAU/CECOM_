@@ -1,5 +1,7 @@
 from flask import Flask, request
 import json
+import User_Authentication
+import cecom_doorlock
 app = Flask(__name__)
 
 @app.route("/doorLock", methods=['GET', 'POST'])
@@ -11,8 +13,8 @@ def doorLock():
         returnjson = "no json"
     print(returnjson)
     if returnjson[0] == 'q':
-        return userAuthendication(thejson[1:])
+        return Authentication(returnjson[1:])
     if returnjson[0] == 'w:':
-        return userRegister(thejson[1:])
+        return userRegister(returnjson[1:])
     if returnjson[0] == 'e':
-        return userDelete(thejson[1:])
+        return userDelete(returnjson[1:])

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d9ee3d9-f5a4-4efa-849b-0ee176a4360a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/User Authentication/.vs/User Authentication/v15/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/User Authentication.pyproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/User_Authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/test.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/.idea/untitled11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/User_Authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doorlock/User_Authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doorlock/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Doorlock/cecom_doorlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doorlock/cecom_doorlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Authentication/.vs/User Authentication/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Authentication/User Authentication.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Authentication/User Authentication/User Authentication.pyproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Authentication/User Authentication/User_Authentication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Authentication/User Authentication/test.db" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,15 +25,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CECOM_DoorLock$CECOM_DoorLock.coverage" NAME="CECOM_DoorLock Coverage Results" MODIFIED="1564040717252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CECOM_DoorLock$CECOM_DoorLock.coverage" NAME="CECOM_DoorLock Coverage Results" MODIFIED="1564042786879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doorlock/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +44,17 @@
       <file leaf-file-name="cecom_doorlock.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doorlock/cecom_doorlock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_Authentication.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Doorlock/User_Authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -48,6 +67,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Doorlock/User_Authentication.py" />
+        <option value="$PROJECT_DIR$/Doorlock/app.py" />
         <option value="$PROJECT_DIR$/Doorlock/cecom_doorlock.py" />
       </list>
     </option>
@@ -95,7 +116,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,12 +137,14 @@
   </component>
   <component name="RunManager">
     <configuration name="CECOM_DoorLock" type="Python.FlaskServer" factoryName="Flask server">
+      <option name="additionalOptions" value="" />
+      <option name="application" value="" />
       <module name="CECOM_DoorLock" />
       <option name="target" value="$PROJECT_DIR$/Doorlock/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -177,17 +200,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Doorlock/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Doorlock/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doorlock/User_Authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Doorlock/cecom_doorlock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
