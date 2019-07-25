@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d9ee3d9-f5a4-4efa-849b-0ee176a4360a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Authentication/.vs/User Authentication/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/User Authentication.pyproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/User_Authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Authentication/User Authentication/test.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doorlock/cecom_doorlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doorlock/cecom_doorlock.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +34,8 @@
       <file leaf-file-name="cecom_doorlock.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doorlock/cecom_doorlock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="446">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -180,8 +186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doorlock/cecom_doorlock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="446">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
         </state>
       </provider>
     </entry>

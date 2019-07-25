@@ -28,10 +28,16 @@ def check(data1, studentID):
             return studentID
     return False
 
+print(check(data, student_ID))
 
-def deleteID(studentID):
-    curs.execute("DELETE FROM user WHERE Student_ID =?",(student_ID,))
-    curs.execute("select*from user")
-    data1 = curs.fetchall()
-    print(data1)
-    conn.close()
+
+delete_ID = input("delete ID:")
+
+curs.execute("DELETE FROM user WHERE Student_ID =?",(delete_ID,))
+
+
+curs.execute("select*from user")
+data1 = curs.fetchall()
+print(data1)
+
+conn.close()
