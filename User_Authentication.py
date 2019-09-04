@@ -10,8 +10,8 @@ def Authentication(id):
 
     sqlData = curs.fetchall()
     for i in sqlData:
-        print(i)
-        print(type(i))
+        print(i[0])
+        print(type(i[0]))
         print(id)
         print(type(id))
         if str(id) in i:
