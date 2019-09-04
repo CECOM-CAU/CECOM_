@@ -39,6 +39,21 @@ def registerPage():
         conn.close()
     return "test"
 
+@app.route("/log", methods=['GET', 'POST'])
+def logPage():
+    conn = sqlite3.connect('fileLogDB.db')
+    curs = conn.cursor()
+    curs.execute("SELECT * FROM fileLogDB")
+    sqlData = curs.fetchall()
+    returnString = ""
+    for i in sqlData:
+        returnString += (i+'\n')
+    conn.commit()
+    curs.close()
+    conn.close()
+    return returnString
+
+
 def DBinit():
     conn = sqlite3.connect("test.db")
     curs = conn.cursor()
