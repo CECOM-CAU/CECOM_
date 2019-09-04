@@ -11,8 +11,9 @@ app.secret_key = 'We are Fried Chicken Dinner!!!!'
 def doorLock():
     if request.method == 'POST':
         returnjson = request.get_json(silent=True, cache=False, force=True)
-        if 'test1' in returnjson:
-            print(returnjson["test1"])
+        if returnjson['code'] == 1:
+            print(returnjson['ID'][6:-2])
+            return User_Authentication.Authentication(returnjson['ID'][6:-2])
         return str(returnjson)
     if request.method == 'GET':
         return 'test'
@@ -23,3 +24,5 @@ def main():
 if __name__ == '__main__':
     IP = str(socket.gethostbyname(socket.gethostname()))
     app.run(host="192.168.0.20", port=9090, debug=True)
+
+de

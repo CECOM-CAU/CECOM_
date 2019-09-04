@@ -3,7 +3,6 @@ import sqlite3 as lite
 def Authentication(id):
     conn = lite.connect('test.db')
     curs = conn.cursor()
-
     curs.execute("SELECT * FROM User")
 
     sqlData = curs.fetchall()
