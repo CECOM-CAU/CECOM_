@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d9ee3d9-f5a4-4efa-849b-0ee176a4360a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_Authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_Authentication.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CECOM_DoorLock$CECOM_DoorLock.coverage" NAME="CECOM_DoorLock Coverage Results" MODIFIED="1567628091767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CECOM_DoorLock$CECOM_DoorLock.coverage" NAME="CECOM_DoorLock Coverage Results" MODIFIED="1567628902041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="371">
+              <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -46,17 +46,17 @@
       <file leaf-file-name="cecom_doorlock.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cecom_doorlock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User_Authentication.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User_Authentication.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/User_Authentication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/Doorlock/User_Authentication.py" />
         <option value="$PROJECT_DIR$/Doorlock/app.py" />
         <option value="$PROJECT_DIR$/cecom_doorlock.py" />
-        <option value="$PROJECT_DIR$/User_Authentication.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/User_Authentication.py" />
       </list>
     </option>
   </component>
@@ -250,7 +250,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567628615200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add log">
+      <created>1567628762518</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567628762518</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add log">
+      <created>1567628774399</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567628774399</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add log">
+      <created>1567628918162</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567628918163</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -260,11 +281,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27634487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27634487" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3294031" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -448,29 +469,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Doorlock/.idea/modules.xml" />
-    <entry file="file://$PROJECT_DIR$/User_Authentication.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="371">
+          <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cecom_doorlock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/User_Authentication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
