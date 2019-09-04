@@ -23,6 +23,22 @@ def doorLock():
 def main():
     return "hello world"
 
+@app.route("/signIn", methods=['GET', 'POST'])
+def registerPage():
+    if request.method == 'GET':
+        return render_template('sign_in.html')
+    else:
+        id = request.form['id']
+        name = request.form['name']
+        conn = sqlite3.connect("test.db")
+        curs = conn.cursor()
+        curs.execute("select*from User")
+        curs.execute("INSERT INTO user(Student_ID,Name) VALUES(" + id + "," + name + ")")
+        conn.commit()
+        curs.close()
+        conn.close()
+    return "test"
+
 def DBinit():
     conn = sqlite3.connect("test.db")
     curs = conn.cursor()
