@@ -42,7 +42,7 @@ def DBinit():
     conn = sqlite3.connect("test.db")
     curs = conn.cursor()
     curs.execute("select*from User")
-    curs.execute("INSERT INTO user(Student_ID,Name) VALUES(" + "20178999" + "," + "testdata" + ")")
+    curs.execute("INSERT INTO user(Student_ID,Name) VALUES("    +  '20178999'  + "," + "'testdata'" + ")")
     conn.commit()
     curs.close()
     conn.close()
