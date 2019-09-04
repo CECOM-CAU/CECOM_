@@ -47,7 +47,7 @@ def logPage():
     sqlData = curs.fetchall()
     returnString = ""
     for i in sqlData:
-        returnString += (i+'\n')
+        returnString += (str(i)+'\n')
     conn.commit()
     curs.close()
     conn.close()
