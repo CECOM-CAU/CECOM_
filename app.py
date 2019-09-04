@@ -12,8 +12,8 @@ def doorLock():
     if request.method == 'POST':
         returnjson = request.get_json(silent=True, cache=False, force=True)
         if returnjson['code'] == '1':
-            print(returnjson['ID'][6:-2])
-            return User_Authentication.Authentication(returnjson['ID'][6:-2])
+            print(returnjson['ID'])
+            return User_Authentication.Authentication(returnjson['ID'])
         return str(returnjson)
     if request.method == 'GET':
         return 'test'
