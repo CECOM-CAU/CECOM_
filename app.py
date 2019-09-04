@@ -24,5 +24,3 @@ def main():
 if __name__ == '__main__':
     IP = str(socket.gethostbyname(socket.gethostname()))
     app.run(host="192.168.0.20", port=9090, debug=True)
-
-de

@@ -1,7 +1,12 @@
-import sqlite3 as lite
+import sqlite3
+
+conn = sqlite3.connect("test.db")
+curs = conn.cursor()
+curs.execute("DROP TABLE IF EXISTS User")
+curs.execute("CREATE TABLE if not exists Iser(Student_ID, Name);")
 
 def Authentication(id):
-    conn = lite.connect('test.db')
+    conn = sqlite3.connect('test.db')
     curs = conn.cursor()
     curs.execute("SELECT * FROM User")
 
