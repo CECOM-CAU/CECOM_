@@ -14,7 +14,7 @@ def Authentication(id):
         print(type(i[0]))
         print(id)
         print(type(id))
-        if str(id) in i:
+        if str(id) in str(i):
             conn.commit()
             curs.close()
             conn.close()
