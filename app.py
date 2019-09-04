@@ -1,3 +1,5 @@
+import sqlite3
+
 from flask import Flask, url_for, render_template, request, redirect, session
 import json
 import cecom_doorlock
@@ -21,6 +23,19 @@ def doorLock():
 def main():
     return "hello world"
 
+def DBinit():
+    conn = sqlite3.connect("test.db")
+    curs = conn.cursor()
+    curs.execute("DROP TABLE IF EXISTS User")
+    curs.execute("CREATE TABLE if not exists User(Student_ID, Name);")
+
+    conn = sqlite3.connect("fileLogDB.db")
+    curs = conn.cursor()
+    curs.execute("CREATE TABLE  if not exists fileLogDB(username, time, file)")
+    conn.commit()
+    conn.close()
+
 if __name__ == '__main__':
+    DBinit()
     IP = str(socket.gethostbyname(socket.gethostname()))
     app.run(host="192.168.0.20", port=9090, debug=True)
