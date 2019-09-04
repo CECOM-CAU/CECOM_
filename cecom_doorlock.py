@@ -1,9 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("test.db")
-curs = conn.cursor()
-curs.execute("DROP TABLE IF EXISTS User")
-curs.execute("CREATE TABLE if not exists User(Student_ID, Name);")
+
 
 def userRegister(name, id):
     conn = sqlite3.connect("test.db")

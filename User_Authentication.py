@@ -1,9 +1,7 @@
+import datetime
 import sqlite3
 
-conn = sqlite3.connect("test.db")
-curs = conn.cursor()
-curs.execute("DROP TABLE IF EXISTS User")
-curs.execute("CREATE TABLE if not exists User(Student_ID, Name);")
+
 
 def Authentication(id):
     conn = sqlite3.connect('test.db')
@@ -15,6 +13,12 @@ def Authentication(id):
         if id in i:
             conn.commit()
             curs.close()
+            conn.close()
+            conn = sqlite3.connect("fileLogDB.db")
+            curs = conn.cursor()
+            curs.execute("SELECT * FROM fileLogDB")
+            curs.execute("insert into fileLogDB values ('" + id + "', '" + str(datetime.now())[:19] + "', '" +"출석" + "')")
+            conn.commit()
             conn.close()
             return id
 
