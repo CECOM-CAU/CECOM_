@@ -10,7 +10,9 @@ def Authentication(id):
 
     sqlData = curs.fetchall()
     for i in sqlData:
-        if id in i:
+        if str(id) in i:
+            print(i)
+            print(type(i))
             conn.commit()
             curs.close()
             conn.close()
