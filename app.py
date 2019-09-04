@@ -33,7 +33,7 @@ def registerPage():
         conn = sqlite3.connect("test.db")
         curs = conn.cursor()
         curs.execute("select*from User")
-        curs.execute("INSERT INTO user(Student_ID,Name) VALUES(" + str(id) + "," + str(name) + ")")
+        curs.execute("INSERT INTO user(Student_ID,Name) VALUES(" + "'"+ str(id)+"'" + "," + "'" + str(name)+ "'" + ")")
         conn.commit()
         curs.close()
         conn.close()
